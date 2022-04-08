@@ -1,0 +1,106 @@
+    @font-face {
+        font-family: intelo-italic;
+        src: url("/assets/fonts/intelo/Intelo-Italic.ttf");
+    }
+
+    @font-face {
+        font-family: intelo-medium;
+        src: url("/assets/fonts/intelo/Intelo-Medium.ttf");
+    }
+
+    @font-face {
+        font-family: intelo-light;
+        src: url("/assets/fonts/intelo/Intelo-Light.ttf");
+    }
+
+    @font-face {
+        font-family: intelo-bold;
+        src: url("/assets/fonts/intelo/Intelo-Bold.ttf");
+    }
+
+    @font-face {
+        font-family: intelo-thin;
+        src: url("/assets/fonts/intelo/Intelo-Thin.ttf");
+    }
+
+    :root {
+        --shape: #fff;
+        --gray-010: #FCFFF5;
+        --gray-015: #F9FAFB;
+        --gray-020: #F8F8F8;
+        --gray-025: #F2F2F2;
+        --gray-050: #f4f4f4;
+        --gray-100: #E6E6E6;
+        --gray-150: #DEDEDF;
+        --gray-200: #d4d4d5;
+        --gray-400: #B5B5B5;
+        --gray-450: #A7A8A8;
+        --gray-500: #A4A6A6;
+        --gray-550: #666666;
+        --gray-600: #767676;
+        --gray-650: #707070;
+        --gray-700: #666666;
+        --gray-750: #333333;
+        --gray-800: #242526;
+        --gray-900: #1B1C1D;
+        --black: #000000;
+        --green-50: #FCFFF5;
+        --green-300: #A8C599;
+        --green-800: #1E561F;
+        --green: #21BA45;
+        --yellow: #FBBD08;
+        --orange-alcans: #fe5000;
+        --background-wine: #973937;
+        --color-link: #2185D0;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+    }
+
+
+
+    @media(max-width: 850px) {}
+
+    html {
+        transform: rotate(90 deg);
+
+        @media(max-width:1080px) {
+            font-size: 93.75%;
+        }
+
+        @media(max-width:720px) {
+            font-size: 87.5%;
+        }
+    }
+
+    body {
+        font-size: 16px;
+        -webkit-font-smoothing: antialiased;
+        overflow-x: hidden;
+    }
+
+    body,
+    input,
+    textarea,
+    button {
+        font-family: intelo-medium;
+        font-weight: 400;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong {
+        font-weight: 500;
+    }
+
+    button {
+        cursor: pointer;
+    }
